@@ -1,4 +1,5 @@
 // Put your code here
+//#region database
 const enemies = [
     {
         firstName: "Joshua",
@@ -39,6 +40,7 @@ const enemies = [
         isReallyHated: false
     }
 ]
+//#endregion
 console.log("My Enemies List!");
 console.log("----------------");
 for (enemy of enemies) {
